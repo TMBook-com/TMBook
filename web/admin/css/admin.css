@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------------Left container ------------------ */
+#left-container{
+   float: left;
+    background-color: cornsilk; 
+   width: 20%;
+   height: 1000px;
+}
+#logo-admin-box{
+    width: 100%;
+    height: 50px;
+    background-color : #868686;
+     display: flex;
+    flex-flow: row wrap; 
+
+}
+#logo-admin-box .flex-item-logo{
+    margin-left: 28px;
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 25px
+}
+.login-mini-admin, .name-page-admin{
+    float: left;
+    margin-left: 15px; 
+}
+.login-mini-admin .logo-page{
+    width: 28px;
+}
+
+#action-admin-box .flex-container {
+/*     We first create a flex layout context */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+.flex-container  .flex-item {
+    background: #82888e;
+     padding: 0px; 
+     width: 100%; 
+    height: 50px;
+    margin-top: 1px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+  }
+.flex-container a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+  }
+
+/* ------------Right container------------ */
+#right-container{
+    float: left;
+     background-color:#9fb3ae; 
+    width: 80%;
+    height: 1000px; 
+}
+/* Right-container-header */
+#right-container-header{
+    float: left;
+    height: 50px;   
+    background-color: #707070;
+    width: 100%; 
+    display: flex;
+    flex-direction: row-reverse wrap; 
+    justify-content: flex-end;
+    
+}
+#right-container-header .flex-item-action{
+    margin-right : -150px; 
+    margin-top : 10px;
+}
+#right-container .img-admin{
+    width: 30px;
+}
+.login-admin-logo{
+    float: left;
+     margin: 10px 50px 0 0 ; 
+    margin-right: 50px;
+}
+.name-admin-box, .log-out-admin{
+    font-size: 20px;
+    margin-left : 20px;
+}
+.name-admin-box a, .log-out-admin a{
+    text-decoration: none;
+    color: #464646;
+}
+.img-admin-box, .name-admin-box, .log-out-admin{
+   float: left; 
+}
+.login-admin-logo{
+    width: 300px;
+}
+.search-box-admin{
+     margin: 10px 50px 0 0; 
+    width: auto;
+    margin-right: 100px;
+    position : relative;
+}
+.search-box-admin .search-input{
+    width: 250px;
+    border-radius: 6px; 
+    height: 30px;
+    padding : 0 0 4px 12px;   
+}
+.search-box-admin .search-icon{
+    color : #303030;
+    position : absolute;
+    width: auto;
+    top: 6px;
+    right: 10px;
+    
+}
+
+/* Right-container-body */
+#right-container-body{
+    float: left;
+    height: 1000px;
+    background-color: #b2b5b7;
+    width: 100%;
+}
+#right-container-body .flex-list-table{
+    display : flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+
+}
+.flex-list-table a{
+    text-decoration: none;
+    list-style: none;
+}
+.flex-item-tb{
+    width : 100px;
+    height: 70px;
+    border: 1px solid #464646;
+    color : #fff;
+    line-height: 20px;
+    background-color: #82888e;
+    text-align : center;
+}
+#right-container-body .flex-dashload-admin{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-around;
+}
+.flex-dash-item{
+    width: 250px;
+    height: 120px;
+    color: #008000;
+    border: 1px solid #0f6d1f;
+    list-style: none;
+    line-height: 3em;
+    text-align: center;
+    margin-top : 50px;
+    font-size: 20px;
+}
+
